@@ -4,13 +4,84 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="//hello-world/"/>
-      <url>//hello-world/</url>
+      <title>相比原版的改动与限制</title>
+      <link href="//limit-modification/"/>
+      <url>//limit-modification/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><ul><li>MC理想国服务器深知<strong>自由</strong>的乐趣，然而为了全体玩家的游戏体验和服务器的长期发展，我们仍需要对部分游戏机制做出一些<strong>限制</strong>，如果这些机制对您的游玩乐趣造成了影响，或在日后的变更中导致您蒙受损失，我们将深表遗憾和歉意，并希望能够得到您的理解</li><li>理想国目前<strong>所有</strong>的机制限制，都有可能在日后视情况<strong>随时改变</strong>。无论进行何种改变，服务器都将以理想国全体玩家的总体利益和前景为前提进行慎重考量</li></ul><hr><h2 id="原版设定"><a href="#原版设定" class="headerlink" title="原版设定"></a>原版设定</h2><ol><li>任何世界均无法创建地狱门和末地传送门，因此无法使用特性制作双维度刷怪塔等设施</li><li>TNT无法在生存区破坏物品，以保护玩家建筑和野外地形</li><li>无法使用TNT复制、铁轨复制等原版“特性”</li><li>修复了所有原版的刷物品“特性”，为此关闭了部分不影响游戏体验的特性，如无法给羊驼骡子安装箱子、无法使用书与笔、盔甲架部分操作修改等</li><li>单个区块内部分物品的放置数量存在上限，以防止区块数据溢出、服务器卡顿的可能，玩家在放置受限物品时会看到提示</li></ol><hr><h2 id="粘液科技设定"><a href="#粘液科技设定" class="headerlink" title="粘液科技设定"></a>粘液科技设定</h2><ol><li>粘液科技在本服的定位是仅作为原版内容的适当扩充，不建议玩家主攻粘液科技方向，或建设大规模流水线</li><li>在各区每位玩家放置的货运节点均有上限，以防止其导致的严重卡顿</li><li>再次提醒，当服务器TPS下降为<strong>15及以下</strong>时，请及时关闭流水线等粘液设备，请勿建设任何可能导致服务器卡顿的设施，违者将受到提醒、处罚，并强制拆除违规设备</li></ol><hr><h2 id="生电设定"><a href="#生电设定" class="headerlink" title="生电设定"></a>生电设定</h2><ol><li>服务器无法保证生电硬核玩家的体验，因为相关游戏规则随时可能变动，导致复杂机器失效损坏</li><li>红石方块在每个区块存在较为宽裕的放置上限，以防止可能导致的卡顿</li><li>当服务器TPS下降为<strong>15及以下</strong>时，会自动开启红石频率限制，请及时关闭大型红石机器（如树场、刷怪场所）等任何可能导致服务器卡顿的设备，违者将受到提醒、处罚，并强制拆除违规设备</li></ol><hr><h2 id="世界设定"><a href="#世界设定" class="headerlink" title="世界设定"></a>世界设定</h2><ol><li>生存一区、二区、三区、地皮区仅供居住，必须<strong>圈地或认领</strong>后才能建造，不允许开采资源、破坏地形<ol><li>生存三区无法放置粘液货运节点，较为流畅</li><li>生存一区、二区可使用货运节点，但负载较大，无法保证流畅的生存体验</li><li>地皮区仅供居住无法圈地，可领取地皮</li></ol></li><li>资源区、资源地狱、资源末地仅供开采资源，不定期删除重置，切勿定居安家，切勿放置贵重物品</li></ol><hr><h2 id="农业设定"><a href="#农业设定" class="headerlink" title="农业设定"></a>农业设定</h2><ol><li>在冬季来临时，露天（顶部没有方块遮挡）、光照不足的农作物可能停止生长或无法种植</li><li>请勿建设多层农场，在同一水平区域，进行多层垂直种植的农作物，生长速度将严重放缓</li></ol>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 管理 </tag>
+            
+            <tag> 说明 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>常见问题解答</title>
+      <link href="//faq/"/>
+      <url>//faq/</url>
+      
+        <content type="html"><![CDATA[<h2 id="萌新入服教程"><a href="#萌新入服教程" class="headerlink" title="萌新入服教程"></a>萌新入服教程</h2><iframe src="//player.bilibili.com/player.html?aid=685253922&amp;bvid=BV1oU4y1D7du&amp;cid=756114363&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><hr><p><strong>如果您对此页面有任何建议，可以提出，以便进行补充</strong><br><strong>使用Ctrl+F快捷键可以直接在网页搜索你的问题哦</strong></p><h2 id="物品丢失怎么办？"><a href="#物品丢失怎么办？" class="headerlink" title="物品丢失怎么办？"></a>物品丢失怎么办？</h2><ul><li>因服务器自身原因导致的物品丢失，可无偿找回，包括如下情况：<ul><li>突然崩服回档导致的物品丢失</li><li>跳转大区时导致背包全部清空</li></ul></li><li>因个人原因导致的物品丢失，每次必须缴纳找回手续费<strong>10万铜币</strong>，即使无法找回，仍正常扣取手续费，包括如下情况：<ul><li>声称丢失物品，但无任何记录和证据</li><li>不小心物品丢出、误将物品当做垃圾销毁、忘记物品存放位置</li><li>装备在使用中不小心损坏、被怪物或TNT破坏</li><li>使用自动整理类MOD导致物品扔出</li></ul></li></ul><p><strong>请发送邮件至腐竹邮箱<a href="mailto:691422759@qq.com">691422759@qq.com</a>，且必须含有以下内容：游戏ID、丢失所在大区、丢失之前所在大区、尽可能详细的物品特征</strong></p><hr><h2 id="为什么服务器全是乱码和方块？"><a href="#为什么服务器全是乱码和方块？" class="headerlink" title="为什么服务器全是乱码和方块？"></a>为什么服务器全是乱码和方块？</h2><ul><li>请关闭<strong>Unicode</strong>字体，按下ESC-选项-语言-左下角-Unicode字体关闭，将游戏字体切换为粗体</li></ul><hr><h2 id="为什么菜单材质和物品材质看起来不对？"><a href="#为什么菜单材质和物品材质看起来不对？" class="headerlink" title="为什么菜单材质和物品材质看起来不对？"></a>为什么菜单材质和物品材质看起来不对？</h2><ul><li><p>在线材质包未及时更新，请点击<strong>主城</strong>前方的NPC强制更新材质包</p></li><li><p>如果每次都有问题，请删除下方客户端路径中的所有文件：<br>MC理想国客户端V4.0.minecraft\versions\MC理想国-1.18.1-Fabric 0.14.6\server-resource-packs</p></li></ul><hr><h2 id="为什么没圈地就不能建造破坏？"><a href="#为什么没圈地就不能建造破坏？" class="headerlink" title="为什么没圈地就不能建造破坏？"></a>为什么没圈地就不能建造破坏？</h2><ul><li>为了保护地形不被过度破坏</li><li>防止熊孩子在你家门口堵门、乱放、乱挖东西</li></ul><hr><h2 id="如何前往末地-地狱？"><a href="#如何前往末地-地狱？" class="headerlink" title="如何前往末地/地狱？"></a>如何前往末地/地狱？</h2><ul><li>先前往资源区，再前往资源地狱/资源末地</li><li>其他各大区不开放可圈地的末地和地狱</li></ul><hr><h2 id="领地、地皮如何给小伙伴添加权限？"><a href="#领地、地皮如何给小伙伴添加权限？" class="headerlink" title="领地、地皮如何给小伙伴添加权限？"></a>领地、地皮如何给小伙伴添加权限？</h2><ul><li>站在领地中输入命令 /ld 即可打开快速设置菜单<br>你也可以使用 /res help 和 /plot help 命令获得帮助</li></ul><hr><h2 id="为什么很多原版机制都被修改或禁用了？"><a href="#为什么很多原版机制都被修改或禁用了？" class="headerlink" title="为什么很多原版机制都被修改或禁用了？"></a>为什么很多原版机制都被修改或禁用了？</h2><ul><li>安全第一，很多机制（特性）存在刷物品等严重风险，甚至威胁整个服务器的运营<br>出于安全考虑部分机制已被修改或禁用，详情请查看<a href="https://www.yuque.com/jinou/lxg/ulmqc2">此处</a>或在游戏中尝试</li></ul><hr><h2 id="我可以使用作弊端或辅助MOD吗？"><a href="#我可以使用作弊端或辅助MOD吗？" class="headerlink" title="我可以使用作弊端或辅助MOD吗？"></a>我可以使用作弊端或辅助MOD吗？</h2><ul><li>不建议使用，服务器仅允许使用部分辅助，使用大部分辅助将受到顶格处罚，请查看<a href="https://www.yuque.com/jinou/lxg/guize">此处</a>了解详情</li></ul><hr><h2 id="可以更换账号-名称吗？"><a href="#可以更换账号-名称吗？" class="headerlink" title="可以更换账号/名称吗？"></a>可以更换账号/名称吗？</h2><ul><li>对于忘记原账号密码的，如果已经绑定过邮箱可根据提示找回密码</li><li>对于忘记密码且不会/没绑定邮箱的，可发送邮件至服主邮箱<a href="mailto:691422759@qq.com">691422759@qq.com</a>申请找回</li><li>对于纯粹希望更换名称的，可自行注册新账号并自行转移资产，不支持转移粘液科技研究树</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 管理 </tag>
+            
+            <tag> 说明 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>理想国服务器规则</title>
+      <link href="//server-rule/"/>
+      <url>//server-rule/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>为保证MC理想国服务器玩家的游戏体验，规范玩家行为，促进服务器长期良好发展，对违禁事项的处理做出参考，特此发布此规则，请所有玩家认真阅读并遵守<br>该规则引用 VACsystem 作为参考，一切相关法律责任由服主承担</p></blockquote><hr><h2 id="A类：影响特别恶劣，进行顶格处罚"><a href="#A类：影响特别恶劣，进行顶格处罚" class="headerlink" title="A类：影响特别恶劣，进行顶格处罚"></a>A类：影响特别恶劣，进行顶格处罚</h2><ol><li>发表违法违规言论的，包括反动、赌毒等内容的，封禁一年并没收所有资产</li><li>宣传其它服务器的，恶意抹黑服务器的，故意侮辱管理人员的，封禁一年并没收所有资产</li><li>使用恶意外挂、辅助、脚本的，除明确允许的类型外，一经查实，封禁一年并没收所有资产<ol><li>允许自动点击、自动钓鱼、自动种植、矿物透视、自动命令、建筑建造等生存辅助</li><li>允许在<strong>PVE</strong>（打怪）时使用辅助瞄准</li><li>严禁在<strong>PVP</strong>时使用任何辅助</li><li>严禁<strong>任何</strong>时候使用作弊飞行、瞬移、变速等<strong>位移</strong>辅助</li><li>如不明确，请询问服主并得到许可</li></ol></li><li>使用各种方式导致服务器严重卡顿，不服从整改要求屡教不改的，封禁一年并没收所有资产<ol><li>TPS低于<strong>15</strong>时，玩家应关闭所有可能卡服的机器或流水线</li><li>同一自然人同时在线账号数量不得多于<strong>3个</strong></li><li>大规模密集动物养殖、高空流水等行为将被视为潜在的卡服行为</li></ol></li><li>使用漏洞故意刷取物资，不主动上报的，一经核实，封禁一年并没收所有资产</li><li>对于以上各条，故意<strong>包庇</strong>或<strong>伙同</strong>协助的，一经查实，封禁一年并没收所有资产</li><li>违反规则任何条例累计到达<strong>3次</strong>，或态度恶劣不配合调查的，封禁一年并没收所有资产</li></ol><hr><h2 id="B类：影响严重，酌情考虑"><a href="#B类：影响严重，酌情考虑" class="headerlink" title="B类：影响严重，酌情考虑"></a>B类：影响严重，酌情考虑</h2><ol><li>破坏其他玩家生存成果的，封禁3-30天，若能偿还物资，可减轻处罚，包括且不限于以下情况：<ol><li>权限错误设置为对所有人公开的领地，即使有权限也不可破坏</li><li>资源世界中的刷怪塔等公共设施，即使有权限也不可破坏</li><li>故意或意外击杀他人领地内的生物</li></ol></li><li>交易中进行欺诈行为的，封禁1-15天，若能偿还物资，可减轻处罚，包括且不限于以下情况：<ol><li>使用重名或高度相似的命名售卖其它类型假冒伪劣物品的</li><li>交易后拒不付款或拒不交货的</li><li>使用严重超出市场价的价格出售给不知情买家的</li></ol></li><li>每个自然人仅可领取1次各类礼包，使用小号多次领取各类礼包的，封禁30天</li><li>辱骂或挑衅其他玩家的，封禁3-30天，并在QQ群禁言对应时长</li><li>使用各种方式阻挠其他玩家正常游戏的，封禁1-15天，包括且不限于以下情况：<ol><li>未经他人允许进行恶意PVP并使他人蒙受损失的</li><li>拾取他人物品拒不归还或勒索费用的</li><li>未经允许在他人领地附近恶意圈地阻碍他人发展的</li></ol></li><li>玩家间私下进行RMB交易的，一旦被骗后果自负，封禁7-30天，对检举曝光的，进行如下处理：<ol><li>交易成功后，双方中的一方向服主举报的，仅对另一方处罚</li><li>交易未成功，玩家举报卖家的，仅对卖家处罚</li></ol></li><li>使用不和谐皮肤或披风的，进行口头警告整改，屡教不改的，封禁1-15天</li><li>未经原作者同意，完全抄袭观赏性建筑的，封禁1-7天</li></ol><hr><h2 id="C类：一般情况的处理方式"><a href="#C类：一般情况的处理方式" class="headerlink" title="C类：一般情况的处理方式"></a>C类：一般情况的处理方式</h2><ol><li>超过60天未开发的领地，影响周边玩家的正常发展时，可由其他玩家申请删除领地，申请后进入14天观察期，若领地主人未曾上线则删除领地</li><li>全球市场中的物品不可使用物品名进行广告行为，也不可制定脱离市场价的价格（如标价999999999）</li><li>请在使用辅助时确保不会误伤人类玩家，否则将视为PVP中使用外挂进行处理</li></ol><hr><h2 id="D类：奖励制度"><a href="#D类：奖励制度" class="headerlink" title="D类：奖励制度"></a>D类：奖励制度</h2><ol><li>发现重大漏洞且第一时间上报的，奖励1000-2000理想币并通报表扬，重大漏洞包括：<ol><li>可无限制刷取贵重物品的</li><li>必然导致服务器崩溃的</li></ol></li><li>发现中等漏洞且第一时间上报的，奖励300-1000理想币并通报表扬，中等漏洞包括：<ol><li>过于轻易获取某种物品，存在平衡性问题的</li><li>越权破坏其他玩家物品或击杀生物的</li><li>导致物品异常丢失或损坏失效的</li></ol></li><li>发现轻微漏洞且第一时间上报的，奖励50-300理想币并通报表扬，轻微漏洞包括：<ol><li>文字或提示存在明显错误的</li><li>部分服务器功能无法正常使用但不影响游玩的</li><li>可能导致服务器卡顿的功能</li></ol></li><li>发现他人存在作弊、违规行为的，使用各种方式检举揭发的，根据被举报者情节严重情况，奖励30-2000理想币，本条不适用于拥有专门监管权限的玩家</li></ol><hr><h2 id="管理制度"><a href="#管理制度" class="headerlink" title="管理制度"></a>管理制度</h2><ol><li>对于涉事玩家要求再次确认并能提供有利证据时，或调查后存在疑点无法确定的，可由嫌疑玩家提出由1名玩家作为担保人免除处罚，担保人需要注册时间大于3个月并进行过理想币消费；<br>若涉事玩家在申请担保后的1个月内再次违反任何规则，担保玩家将受到牵连处罚</li><li>对于拥有社区管理权限（如禁言）的玩家滥用职权的，按照B-5进行处罚，同时剥夺相应权限</li></ol><hr><h2 id="适用说明"><a href="#适用说明" class="headerlink" title="适用说明"></a>适用说明</h2><ol><li>任何加入服务器游玩的玩家及加入QQ群的成员均需遵守相关条例</li><li>服务器聊天、木牌、地图画等内容、QQ群聊天内容，均可使用本规则进行处理</li><li>本规则处理针对特定自然人的所有账号，不仅限于单个违规账号</li><li>对于违反条例，但能主动自首的、检举同伙的、态度良好的、能够提供有效补偿的，可减轻或免除处罚</li><li>对于违反条例，毁灭证据的、阻挠调查的、态度恶劣的，将从严从重处罚</li></ol><hr><h2 id="服务器运营说明"><a href="#服务器运营说明" class="headerlink" title="服务器运营说明"></a>服务器运营说明</h2><ol><li>服务器将尽一切可能保护玩家的信息，包括游戏货币、建筑、装备等内容</li><li>对于造成服务器严重卡顿或风险的机制或物品，服务器有权在不进行通知的情况下随时移除相关内容</li><li>对于严重影响服务器性能的行为，服务器有权随时新增相关限制措施保证大多数玩家的体验</li></ol><hr><p><strong>本规则所有内容最终解释权由MC理想国服主所有，服主可根据实际情况随时调整本规则或处罚力度</strong></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 管理 </tag>
+            
+            <tag> 规则 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>理想的国度 永恒的家园</title>
+      <link href="//welcome-page/"/>
+      <url>//welcome-page/</url>
+      
+        <content type="html"><![CDATA[<iframe src="//player.bilibili.com/player.html?aid=769665158&amp;bvid=BV1er4y1G7Sx&amp;cid=738390571&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><hr><h2 id="理想国简介"><a href="#理想国简介" class="headerlink" title="理想国简介"></a>理想国简介</h2><ul><li>MC理想国是一个基于<strong>经典生存</strong>玩法的纯净服务器，并使用高版本特性和插件扩展原版内容</li><li>MC理想国建立于2015年2月5日，当前周目开启于2020年3月5日</li><li>MC理想国致力于尽可能<strong>延长周目</strong>时间，保留所有玩家的美好记忆</li><li>MC理想国自开服至今已有7年时间，有约3万玩家注册在案，陪伴了一批又一批热爱MC的玩家</li><li>MC理想国存在一定的付费内容，但我们<strong>不以盈利为目的</strong>，您的赞助将使MC理想国走得更远</li><li>虽然MC在国内的热度持续下滑，但MC理想国仍将在未来努力运营下去</li></ul><hr><h2 id="特点-amp-理念"><a href="#特点-amp-理念" class="headerlink" title="特点&amp;理念"></a>特点&amp;理念</h2><ul><li>忠于纯净：任何同版本纯净端均可游玩，无需使用专用客户端</li><li>忠于生存：以原版生存为主，不因RPG或其它玩法喧宾夺主</li><li>永久周目：承诺不更换周目，除非遭遇不可抗力或重大损失</li><li>跟随版本：当某一版本的一个小版本更新完结后（如1.16.5），服务器将会更新至此版本</li><li>技术革新：探索使用更新、更前沿的特性和技术为玩家带来全新体验</li><li>和谐社区：我们制定了明晰的服务器规则以规范玩家行为，并将在实践中继续完善</li></ul><hr><h2 id="加入我们"><a href="#加入我们" class="headerlink" title="加入我们"></a>加入我们</h2><ul><li>直连IP：mclixiang.com（推荐使用1.18.1纯净端进入）</li><li>QQ群：648845992</li></ul><iframe style="width:728px;height:90px;max-width:100%;border:none;display:block;margin:auto" src="https://zh-cn.namemc.com/server/mclixiang.com/embed" width="728" height="90"></iframe><hr><h2 id="管理架构"><a href="#管理架构" class="headerlink" title="管理架构"></a>管理架构</h2><ul><li>MC理想国由服主金瓯（Jin_ou）一人负责所有的管理、维护、开发、运营等工作</li><li>如果您有任何疑问、意见、建议，或求助，请发送邮箱至<a href="mailto:691422759@qq.com">691422759@qq.com</a>以取得联系</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 管理 </tag>
+            
+            <tag> 说明 </tag>
+            
+        </tags>
       
     </entry>
     
